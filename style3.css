@@ -1,0 +1,255 @@
+@import url('file:///C:/Users/Harsh/Desktop/Website%20Orientation/Decent.html');
+:root{
+    background-image: url("vivi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    --black: #1B1722;
+    --white : #F0F0F0;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;   
+    overflow-x: hidden;
+    scroll-padding-top: 8rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 1.8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+    position: absolute;
+    top: 30px;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--white);
+    border-radius: 15rem;
+}
+
+.header{
+    top: 0;right: 0;left: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.4rem 7%;
+    z-index: 999;
+   
+}
+.header .logoContent{
+    display: flex;
+    align-items: center;
+}
+.header .logoContent .logo img {
+    height: 8rem;
+    
+}
+.header .logoContent .logoName {
+    color: var(--white);
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--white);
+    font-weight: bold;
+}
+.header .navbar a:hover{
+    
+    padding-bottom: .2rem;
+}
+a {
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--white);
+    font-weight: bold;
+}
+.header .navbar a:hover{
+    
+    padding-bottom: .2rem;
+}
+ button{
+    padding: 10px 40px;
+    background-image: url();
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 30px;
+    
+}
+button{
+    padding: 10px 40px;
+    background-image: url();
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 30px;
+    
+}
+.header .navbar button:hover{
+    color: var(--white);
+    background-color: var(--black);
+    outline: .1rem solid var(--white);
+}
+.popup{
+    width: 700px;
+    background-image: url(hk.jpg);
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 400px;
+    transition: translate(-50%, -50%) scale(1) ;
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #d6fc01;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.header .icon i{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .search{
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    width: 50%;
+    right: 0;
+    height: 5rem;
+    position:  absolute;
+
+}
+.header .search input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: var(--white);
+    color: var(--black);
+    margin-right: 7%;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+.header .search.active{
+    display: inline-block;
+}
+#menu-bar{
+    display: none;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/back.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home .homeContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.home .homeContent img{
+    margin-top: 3cm;
+    float: right;
+    position: relative;
+    left: 650px;
+    bottom: 30px;
+    border-style: double;
+
+    
+}
+.home .homeContent h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+    position: relative;
+    bottom: 300px;
+    
+}
+.home .homeContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 300px;
+    
+         
+}
+
+.home .homeContent .home-btn{
+    height: 3rem;
+    position: relative;
+    bottom: 300px;
+    
+}
+.home .homeContent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+    
+}
+.home .homeContent .home-btn button:hover{
+    font-size: 2rem;
+
+}

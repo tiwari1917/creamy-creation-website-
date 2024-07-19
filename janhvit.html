@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vini Tiwari (Creamy Creations)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+    "
+
+    <link rel="stylesheet" href="janhvi.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="My project (5).png"></a>
+            <h1 class="logoName">
+                <p>Vini Tiwari </p>
+            </h1>
+        </div>
+
+
+        <nav class="navbar">
+            <a href="Dt (2).html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="order.html">order</a>
+            <a href="#Review">Review</a>
+            <a href="#Contact">Contact</a>
+            <a>
+                <button type="submit" class="btn" onclick="openpopup()">OFFER!</button>
+                <div class="popup" id="popup">
+                    <img src="My project (3).png">
+                    <h2>exciting offers</h2>
+                    <p>upcoming christmas and new year sale and lot more designs avalable </p>
+                    <button onclick="closepopup()">ok</button>
+                </div>
+                <script>
+                    let popup = document.getElementById("popup");
+
+                    function openpopup() {
+                        popup.classList.add("open-popup");
+                    }
+                    function closepopup() {
+                        popup.classList.remove("open-popup");
+                    }
+                </script>
+            </a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa search" id="search"></i>
+            <i class="fas fa bars" id="menu-bar"></i>
+            <div class="search">
+                <input type="search" placeholder="search...">
+            </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="https://source.unsplash.com/1500x300/?cake">
+            <h2>Place Order</h2><br>
+        </div>
+        <div class="img">
+            <img src="My project (1).png" height="300" width="300">
+            <img src="My project (2).png" height="300" width="300">
+            <img src="My project (3).png" height="300" width="300">
+            <img src="My project (4).png" height="300" width="300">
+        </div>
+        <div class="img3">
+            <img src="My project (1).png" height="300" width="300">
+            <img src="My project (2).png" height="300" width="300">
+            <img src="My project (3).png" height="300" width="300">
+            <img src="My project (4).png" height="300" width="300">
+        </div>
+
+    </section>
+    <hr>
+    <section class="info" id="info">
+        <div class="form1">
+            <form class="form" id="orderform" METHOD="POST" action="connect.php">
+                <div class="form">
+                    name
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="name" ><br /></br>
+                    </div>
+                    mobile no.
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="mobile no."><br /></br>
+                    </div>
+                    address
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="address"><br /></br>
+                    </div>
+                    landmark
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="landmark"><br /></br>
+                    </div>
+                    pin code
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="pincode"><br /></br>
+                    </div>
+                    E-mail id
+                    <div>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" name="email"><br /></br>
+                    </div>
+                </div>
+                <div class="form2">
+                    <p>address of </p></br>
+                    <div>
+                        <input type="radio" name="place" value="h" /> home
+                        <input type="radio" name="place" value="o" /> office
+                        <input type="radio" name="place" value="ht" /> hotel
+                        <input type="radio" name="place" value="ot" /> Other
+                    </div>
+                    </P><br />
+                    <div class="prime">
+                        <p>Write First Four Prime Numbers:</br>
+                            <textarea rows="2" cols="8" name=" prime numbers"></textarea></br></br>
+                            <button>order now</button>
+                    </div>
+                    </p>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LcFUYwiAAAAACsQxvZwrH3XPH0phHe-RUqB7Dei"></div>
+                <br />
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                    <h1 class="logoName"> Creamy Creations </h1>
+                </div>
+
+                <p>Unforgettable Sweetness You'll Keep Craving For.</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>blogs</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+91 74464*****</a>
+                <a href="#"> <i class="fas fa-envelope"></i>janhvit611@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Vini Tiwari </span> |all rights are reserved!
+        </div>
+    </footer>
+
+
+
+
+    <HTML>
+
+    <HEAD>
+        <TITLE>Registration Form</TITLE>
+    </HEAD>
+
+    <BODY background="g.jpg" text="black" size=5><b>
+            <h1 align="center">VAISHNAVI PORTAL<BR>REGISTRATION FORM<u></h1>
+            <form id="registration form" METHOD="POST" action="mailto:vt224099@yahoo.com">
+                Student's Name: <input type="text" NAME="student's-name" /><br /><br />
+                Father's Name: <input type="text" name=" fathers name" /><br /><br />
+                E-mail id: <input type="text" id=" email" /><br /><br />
+                Password: <input type="password" NAME="pwd" /><br /><br />
+                Confirm Password: <input type="password" name="repass" /><br /><br />
+                <p>Gender:<select name="gender">
+                        <option value="Male">Male
+                        <option value="Female">Female
+                        <option value="Other">Other
+                    </select></p>
+                <p>Loan For The Coarse:
+                    <input type="radio" name="coarse" value="B-Tech" />B-Tech
+                    <input type="radio" name="coarse" value="BBA" />BBA
+                    <input type="radio" name=" coarse" value="MCA" />MCA
+                    <input type="radio" name=" coarse" value=" MBA" />MBA
+                </P>
+                <P>Please read all terms and conditions before clicking checkbox:
+                    <input type="checkbox" name="terms and conditions" value="yes">
+                </p>
+                <p>Write First Four Prime Numbers:<br>
+                    <textarea rows="2" cols="8" name=" prime numbers"></textarea>
+                <p><input type="Submit" name="Request" value="Submit this Form">
+                    <input type="reset" name="clear" value="Rewrite The Form">
+                </p>
+            </form>
+    </body>
+
+    </html>
