@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vini Tiwari (Creamy Creations)</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+    
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="My project (5).png"></a>
+            <h1 class="logoName">
+                <p>Vini Tiwari </p>
+            </h1>
+        </div>
+
+
+        <nav class="navbar">
+            <a href="Dt (2).html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="order.html">order</a>
+            <a href="#Review">Review</a>
+            <a href="foram.html">forum</a>
+            <a>
+                <button type="submit" class="btn" onclick="openpopup()">OFFER!</button>
+                <div class="popup" id="popup">
+                    <img src="My project (3).png">
+                    <h2>exciting offers</h2>
+                    <p>upcoming christmas and new year sale and lot more designs avalable </p>
+                    <button onclick="closepopup()">ok</button>
+                </div>
+                <script>
+                    let popup = document.getElementById("popup");
+
+                    function openpopup() {
+                        popup.classList.add("open-popup");
+                    }
+                    function closepopup() {
+                        popup.classList.remove("open-popup");
+                    }
+                </script>
+            </a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa search" id="search"></i>
+            <i class="fas fa bars" id="menu-bar"></i>
+            <div class="search">
+                <input type="search" placeholder="search...">
+            </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                src="https://source.unsplash.com/600x300/?cake">
+            <h2><br><br>Creamy Creations </h2><br>
+            <p>Hey, I am vini and this is the platform where you will find the best taste for cake with the fusion of
+                indian desserts..</p><br><br>
+            <div class="home-btn">
+                <a href="#"><button>see more</button></a>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <!-- home section end here  -->
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Our Exclusive creations</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="cake1.jpg" height="50" width="50">
+                    </div>
+                    <div class="product-content">
+                        <h3>Unicorn</h3>
+                        <p>flavour of Vanilla and chocolate..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/svQYolGpJWU" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="padu.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Butterscotch</h3>
+                        <p>flavour of Butterscotch and Caramel.
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/234kj09myks" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="pur.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Rasmalai</h3>
+                        <p> gulab jamun as a topping.
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/gB1U9wlj0-c" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="gud.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Chocolate truffle cake...
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/Jj8YSwCADhE" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="pi.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Chocolate truffle cake (mini version)
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/Jj8YSwCADhE" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="ha.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>vanilla</h3>
+                        <p>colourfull roses and chocolate..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/vVAeb1_D7XQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="fa.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Rossette</h3>
+                        <p>Chocolate bread with pink designing..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/WU2oRcGQAEQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="jjk.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Strawberry</h3>
+                        <p>Strawberry flavour with colourfull drips.
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/5lOnYCL81yI" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="rainbo.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>rainbow</h3>
+                        <p>rainbow decoration with Butterscotch flavour
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/Jj8YSwCADhE" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="doll.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>doll</h3>
+                        <p>doll cake wearing blue dress..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/vVAeb1_D7XQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="unfrosted.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Strawberry</h3>
+                        <p>unfrosted choco-bread Strawberry cake..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/WU2oRcGQAEQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="kitkat.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>choco-kitkat</h3>
+                        <p>pure chocolate kit kat designed..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/5lOnYCL81yI" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="purple.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>purple rossette</h3>
+                        <p>purple rossette design..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/Jj8YSwCADhE" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="wb (2).jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>black forest</h3>
+                        <p> vanilla and chocolate combo..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/vVAeb1_D7XQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="blue roset.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>blue Rossette</h3>
+                        <p>Chocolate bread with blue designing..
+                        </p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/WU2oRcGQAEQ" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="pink roset.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>pink rossette</h3>
+                        <p>Strawberry flavour..</p>
+                        <div class="orderNow">
+                            <a href="https://youtu.be/5lOnYCL81yI" target="_blank">
+                                <button>full video </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- product section end here  -->
+
+    <!-- blogs section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+            <u>
+                <h2>our Blogs</h2>
+            </u>
+        </div>
+    </section>
+    <section class="blogs" id="blogs">
+
+        <div class=" swiper blogs-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blog-img1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Caramel Bourbon Vanilla Cupcakes </h3>
+                        <p>bourbon cakes are supper spongi and dilisious with creamy froasting of tasty whipped
+                            cream have lots of nuts and dry fruit with exotic flavours it melts in the mouth like
+                            a sugar candy varities avalable in chocolate cakes.chocolovers!</p>
+                        <p>come on lets enjoy and explore learning new sweet dilisious resipies supper easy and
+                            exotic in taste.</p>
+                        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                            src="https://source.unsplash.com/401x250/?cake">
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blog-img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Caramel custard </h3>
+                        <p>custard is a most tempting recipe to impress the soft and melting texture of custard make
+                            it more fentastic and melts the heart in it exotic taste sequence why to miss the chance of
+                            learning the easy and tasty resipe of caremel custard.sugary caramel! </p>
+                        <p>come on lets enjoy and explore learning new sweet dilisious resipies supper easy and
+                            exotic in taste.</p>
+                        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                            src="https://source.unsplash.com/410x250/?custard">
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/blog-img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>chocolava cake</h3>
+                        <p>chocolate is not word its a feeling and when it melt s out of the spongi cake chocolaty cake
+                            makes your heart fall in love with rich flavour of coco. why to think why not to learn the
+                            easiest and the delicious resipe chocolava. for chacolate loves!</p>
+                        <p>come on lets enjoy and explore learning new sweet dilisious resipies supper easy and
+                            exotic in taste.</p>
+                        <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
+                            src="https://source.unsplash.com/409x250/?chocolate cake">
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+    </section>
+
+    <!-- blogs section ends here  -->
+
+    <!-- newsletter section start here  -->
+
+    <section class="newsletter">
+        <form action="">
+            <h3>subscribe for latest update</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="button" value="subscribe" class="box2">
+        </form>
+    </section>
+    <!-- newsletter section ends here  -->
+
+    <!-- review section start here  -->
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>client review</h2>
+        </div>
+
+
+        <div class=" swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, perferendis architecto
+                            quasi eveniet aliquam sed?</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="sa.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Hardy David</h3>
+                            <p>UI / UX designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>different designs of cake are realy appriciatable and exotic taste that makes it more
+                            atractive dont
+                            miss to try one it will turn many more </p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="c.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>marrina lore</h3>
+                            <p>UI / UX designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>wishing you luck for more more new ideas in industry of designing as work worth appreciation
+                            of your own ideas lead to great success</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="gi.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>Hina Parihar</h3>
+                            <p>cake designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>great experience of have high quality desserts with unique design creamy creations
+                            gave a clasic look to desserts implimentation.</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="ccc.jpg" alt="">
+                        </div>
+                        <div class="clientDetailed">
+                            <h3>tanmay parkhi</h3>
+                            <p>u.cake designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+    <!-- review section ends here  -->
+
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                    <h1 class="logoName"> Creamy Creations </h1>
+                </div>
+
+                <p>Unforgettable Sweetness You'll Keep Craving For.</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>blogs</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>our services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+91 74464*****</a>
+                <a href="#"> <i class="fas fa-envelope"></i>janhvit611@gmail.com</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Vini Tiwari </span> |all rights are reserved!
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
+</div>
+</div>
+
+
+
+</header>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
+
+
+</body>
+
+</html>
